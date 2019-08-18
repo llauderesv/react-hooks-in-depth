@@ -1,6 +1,15 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-row-gap: 10px;
+  padding: 10px;
+  /* padding-block: 100px; */
 }
+
+/* @media (width <= 550px) and (width >= 500px) {
+  body {
+    background-color: red;
+  }
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import UseMemo from './Examples/UseMemo';
+import UseLayoutEffect from './Examples/UseLayoutEffect';
+import UseImperativeHandle from './Examples/UseImperativeHandle';
 import './App.css';
 
+// This small project demonstrate how advanced react hooks works
+// and how to use it properly
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Advanced React hooks</h1>
+      <UseLayoutEffect />
+      <UseMemo />
+      <UseImperativeHandle />
     </div>
   );
 }
